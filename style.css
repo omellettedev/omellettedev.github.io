@@ -1,4 +1,6 @@
-body {
+.center {
+    text-align: center;
+    padding: 250px;
     background-image: url(background.webp);
     background-repeat: no-repeat;
     background-position: center;
@@ -8,12 +10,17 @@ body {
 
 h1 {
     color: white;
-    font-family: verdana;
+    font-family: serif;
     font-size: 300%;
 }
 
 p {
     color: white;
-    font-family: verdanath;
+    font-family: serif;
     font-size: 150%;
+}
+
+#small{
+    font-size: medium;
+    margin-top: -20px;
 }
