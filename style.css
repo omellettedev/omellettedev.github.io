@@ -2,7 +2,7 @@
     text-align: center;
     height: 100vh; 
     width: 100vw;
-    background-image: url(background.webp);
+    background-image: url(background.png);
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: cover;
@@ -30,13 +30,13 @@
 
 h1 {
     color: white;
-    font-family: geneva;
+    font-family: Verdana;
     font-size: 500%;
 }
 
 p {
     color: white;
-    font-family: geneva;
+    font-family: Verdana;
     font-size: 300%;
 }
 
