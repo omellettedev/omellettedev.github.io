@@ -15,7 +15,7 @@
 
 .subcontent {
     text-align: center;
-    height: 300vh; 
+    height: 400vh; 
     width: 100vw;
     padding-top: 10px;
     background-color: black;
@@ -33,6 +33,27 @@
     padding-top: 500px;
     padding-left: 100px;
     text-align: left;
+}
+
+.newbutton {
+    border-color: rgb(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.newbutton:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    text-decoration: underline;
+    color: darkgreen;
+}
+
+.nexttitle {
+    text-align: center;
+    height: 100vh; 
+    width: 100vw;
+    background-image: url(./images/bottomimage.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
 }
 
 body {
@@ -86,4 +107,11 @@ ul {
 #small {
     font-size: 180%;
     margin-top: -20px;
+}
+
+#joinus {
+    text-align: right;
+    padding-top: 150px;
+    position: relative;
+    right: -400px;
 }
